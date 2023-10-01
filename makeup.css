@@ -1,0 +1,135 @@
+body {
+    background-color: #f0f2f5;
+    font-family: Verdana, Tahoma, sans-serif;
+    width: 90%;
+}
+
+.mother {
+    padding-top: 150px;
+    padding-bottom: 164px;
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+
+}
+
+.daughter {
+    margin-left: 10%;
+    margin-top: 10%;
+    margin-right: 5%
+}
+
+
+.son {
+    margin-right: 10%;
+    margin-top: 5%;
+    margin-left: 5%;
+
+}
+
+
+.titre_page {
+    color: #1877f2;
+    font-size: 80px;
+    margin-bottom: 0;
+
+}
+
+.sous_titre {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 25px;
+}
+
+.formulaire_connexion {
+    width: 120%;
+    background-color: white;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-shadow: 1px 1px 2px 4px #0000001a,
+                0 8px 16px#0000001a ;
+    border-radius: 8px;
+}
+
+input {
+    font-size: 20px;    
+    border-radius: 5px;
+    border-color: #f0f2f5;
+    box-shadow: none;
+    width: 90%;
+    height: 40px;
+    margin-left: 10px;
+}
+
+.text_zone {
+    margin-top: 3%;
+    margin-bottom: 3%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 20px;    
+    border-radius: 5px;
+    border-color: #f0f2f5;
+    box-shadow: none;
+    
+}
+
+::placeholder {
+    color: gray;
+}
+
+.se_connecter {
+    background-color: #1877f2;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    width: 90%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    margin-left: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 23px;    
+    border-radius: 5px;
+    border-color: #f0f2f5;
+    box-shadow: none;
+    
+}
+
+.pass_oublié {
+    color: #1877f2;
+    font-size: 17px;
+    margin-left: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-left: 25%;
+}
+
+.separateur {
+    width: 90%;
+    color: #f0f2f5;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.créer_compte {
+    width: 250px;
+    margin-left: 20%;
+    padding: 15px 10px 15px 10px;
+    font-weight: bold;
+    font-size: 20px;    
+    border-radius: 5px;
+    border-color: #f0f2f5;
+    box-shadow: none;
+    color: white;
+    background-color: #42b72a;
+}
+
+.suggestion {
+    font-size: 15px; 
+    text-align: center;
+    margin-left: 10%;
+    margin-top: 7%;
+    margin-right: 0;
+}
